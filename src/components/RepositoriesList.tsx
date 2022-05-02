@@ -13,6 +13,7 @@ const RepositoriesList: React.FC = () => {
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     searchRepositories(term);
+    console.log('other')
   };
 
 
